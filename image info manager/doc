@@ -1,0 +1,30 @@
+# Image Viewer with Information
+
+This is a simple Python application using the Tkinter library to display image information and allow you to view selected images from a chosen directory. The application provides the following features:
+
+- **Select a folder**: Choose a directory containing images (JPG, GIF, TIF, BMP, PNG, PCX).
+- **Display image information**: View image details such as name, size, dots per inch, color depth, compression, and entropy in a table.
+- **Click to view**: Click on a table row to view the selected image in a separate window.
+
+## Prerequisites
+
+Before running the application, ensure you have the following installed:
+
+- Python 3.x
+- Tkinter library (`tkinter`)
+- Pillow library (`PIL`)
+
+You can install Pillow using pip:
+pip install Pillow
+
+
+## Usage
+
+1. Run the script using Python:
+
+2. Click the "Choose Folder" button to select a directory containing images.
+
+3. The table will display image information for all valid images in the selected folder.
+
+4. Click on a table row to view the corresponding image in a separate window.
+
